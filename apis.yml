@@ -1,8 +1,30 @@
 aid: slm-software-company
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/slm-software-company.png
 name: SLM Software Company
-description: SLM Software Company is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  SLM Software Company (SLMsoft.com) was a Toronto, Canada based developer of
+  electronic payment systems and real-time transaction processing solutions for
+  the financial services industry, founded in 1986. Its platform bundled a
+  transaction management engine with application modules for Internet banking,
+  IVR, debit and credit card issuing, ATM and point-of-sale network management,
+  retail branch management, and e-CRM, along with brokerage portfolio
+  management, e-health claims settlement, and e-government payment products,
+  serving over 1,500 customers across 52 countries. The company was acquired by
+  The InterCept Group (C$110 million) and is now permanently closed. It was
+  surfaced as an Insight Partners portfolio company and added to the API
+  Evangelist network as a stub; enrichment found no live API, developer portal,
+  documentation, or other public developer surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/slm-software-company/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,27 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Acquired by The InterCept Group (C$110M); permanently closed per Crunchbase.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Financial Services
+- Payments
+- Transaction Processing
+- Banking
+- E-Commerce
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
