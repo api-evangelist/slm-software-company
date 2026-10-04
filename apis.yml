@@ -50,7 +50,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Payments
 - Transaction Processing
 - Banking
@@ -64,6 +64,7 @@ tags_raw:
 - Banking
 - E-Commerce
 - Defunct
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
